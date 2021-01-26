@@ -82,7 +82,7 @@ namespace Polymorphism
         public virtual decimal Earnings()
         {
             return CommissionRate * GrossSales;
-        }// end method Earnings
+        }/
 
 
         public override string ToString()
@@ -91,6 +91,6 @@ namespace Polymorphism
             "commission employee", FirstName, LastName,
             "social security number", SocialSecurityNumber,
             "gross sales", GrossSales, "commission rate", CommissionRate);
-        } // end method ToString
+        }
     }
 }
