@@ -14,6 +14,7 @@ namespace Polymorphism
 
             // invoke ToString and Earnings on base-class object
             // using base-class variable
+            //test
             Console.WriteLine("{0} {1}:\n\n{2}\n{3}: {4:C}\n",
                 "Call CommissionEmployee's ToString and Earnings methods ", "with base-class reference to base class object",
                 commissionEmployee.ToString(), "earnings", commissionEmployee.Earnings());
